@@ -122,6 +122,19 @@ This lecture covers comprehensive data preprocessing techniques essential for da
 - **Key Tools**: Custom systematic sampling functions, statistical validation methods
 - **Practical Applications**: Quality control, time series sampling, audit procedures
 
+#### 11. **Linearizing Nonlinear Data**
+(`ex08_linearizing_nonlinear_data.ipynb`)
+
+- **Learning Objectives**: Transform an exponential nonlinear relationship into a linear form
+- **Techniques Covered**:
+  - Logarithmic transformation of the response variable
+  - Linear regression before and after transformation
+  - Back-transformation to the original scale
+  - Model comparison using \(R^2\), MAE, and RMSE
+  - Residual analysis
+- **Key Tools**: NumPy, pandas, Matplotlib, scikit-learn regression and evaluation metrics
+- **Practical Applications**: Exponential growth modeling, trend analysis, variance stabilization, and regression diagnostics)
+
 ## Educational Features
 
 All notebooks include:
